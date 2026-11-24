@@ -23,7 +23,7 @@ reutilizar los recursos comunes del repositorio.
 
 | Carpeta | Trabajo | Estado |
 |---|---|---|
-| `01-equipamiento-central-vapor/` | Equipamiento de una central a vapor | EN DESARROLLO (infraestructura) |
+| `01-equipamiento-central-vapor/` | Equipamiento de una central a vapor | EN DESARROLLO — 4 entregas hasta el 24/12/2026 |
 | `02-trabajo-pendiente/` | Pendiente de definición | PENDIENTE |
 | `03-trabajo-pendiente/` | Pendiente de definición | PENDIENTE |
 | `04-trabajo-pendiente/` | Pendiente de definición | PENDIENTE |
@@ -50,6 +50,10 @@ centrales-termicas/
 └── 05-trabajo-pendiente/
 ```
 
+El trabajo 01 añade dos carpetas propias de entregas —
+`02_presentaciones/` (ENT-01 a ENT-03) y `03_tarea_grupal/` (ENT-04)— que no
+forman parte de la secuencia `00_…12_` del expediente.
+
 Cada trabajo numerado replica la misma organización interna:
 
 ```
@@ -69,6 +73,19 @@ Cada trabajo numerado replica la misma organización interna:
 ├── 11_anexos/           Anexos del trabajo
 └── 12_entregables/      Versiones finales aprobadas (PDF, PPTX)
 ```
+
+## Entregas vigentes (Trabajo 01)
+
+| ID | Actividad | Fecha | Hora límite | Estado |
+|---|---|---|---|---|
+| ENT-01 | Trabajo 2 — presentación individual | 2026-12-23 | 08:44 a. m. | PENDIENTE |
+| ENT-02 | Trabajo 3 — presentación grupal | 2026-12-23 | 09:13 a. m. | PENDIENTE |
+| ENT-03 | Trabajo 4 — presentación final grupal | 2026-12-23 | 05:36 p. m. | PENDIENTE |
+| ENT-04 | Tarea grupal | 2026-12-24 | 08:07 a. m. | PENDIENTE — enunciado no recibido |
+
+Calendario y alertas: `01-equipamiento-central-vapor/00_gestion/calendario_entregas.md`.
+Cronograma: `01-equipamiento-central-vapor/00_gestion/plan_trabajo.md`.
+Control de avance: `01-equipamiento-central-vapor/00_gestion/seguimiento.md`.
 
 ## Política de rigor técnico
 

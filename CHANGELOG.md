@@ -6,6 +6,36 @@ proyecto documental.
 
 ## [Unreleased]
 
+## [0.2.0] — 2026-11-24
+
+### Añadido
+
+- `00_gestion/calendario_entregas.md` con las cuatro actividades académicas,
+  horas límite y alertas D-14/D-7/D-3/D-1.
+- `00_gestion/plan_trabajo.md`: plan unificado de alcance, productos, cronograma
+  por fases, ruta crítica, reutilización y puntos de control.
+- `00_gestion/seguimiento.md`: tablero de entregas, checklist de ocho puntos y
+  bitácora de avance.
+- Estructura `02_presentaciones/` con las entregas ENT-01, ENT-02 y ENT-03.
+- Estructura `03_tarea_grupal/` con `enunciado/`, `investigacion/` y
+  `entregables/`, bloqueada por enunciado no recibido.
+- `PLANTILLA_PRESENTACION.md` en recursos compartidos.
+- Sección de control de presentaciones en `CONTROL_CALIDAD.md`.
+
+### Cambiado
+
+- `PLAN_TRABAJO.md` pasa a `plan_trabajo.md` e integra el cronograma académico;
+  se conserva todo el contenido de alcance y productos.
+- `10_presentacion/` queda como carpeta reasignada y remite a
+  `02_presentaciones/`; no se elimina para conservar el historial.
+- El README principal y el README del trabajo 01 incluyen el calendario vigente.
+
+### Notas
+
+- Las fechas y horas se transcriben de la comunicación académica; no se
+  inventaron rúbricas, duraciones, integrantes ni el enunciado de ENT-04.
+- No se modificó la investigación existente.
+
 ## [0.1.0] — 2026-11-24
 
 ### Añadido

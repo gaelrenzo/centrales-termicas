@@ -67,6 +67,17 @@ observaciones cerradas).
 - [ ] Nombres de equipos idénticos en todo el expediente.
 - [ ] Siglas definidas en su primera aparición.
 
+### 2.9 Presentaciones y entregas orales
+
+- [ ] Contiene las siete secciones: objetivo, índice, contenido técnico,
+      diagramas, tablas comparativas, conclusiones y bibliografía.
+- [ ] Cada diapositiva técnica remite al capítulo, figura o cálculo de origen.
+- [ ] No introduce datos ausentes en el expediente.
+- [ ] No duplica contenido de otra presentación sin justificación.
+- [ ] Diagramas y tablas coinciden con los del expediente.
+- [ ] Conclusiones sustentadas y sin afirmaciones no verificadas.
+- [ ] Archivo fuente y PDF probados; carga con margen horario.
+
 ## 3. Matriz de estado — Trabajo 01
 
 | Cap. | Título | Investigación | Redacción | Revisión técnica | Última actualización |
@@ -87,6 +98,15 @@ observaciones cerradas).
 | XIV | Evaluación ambiental y eficiencia | PENDIENTE | PENDIENTE | PENDIENTE | 2026-11-24 |
 | XV | Conclusiones y recomendaciones | PENDIENTE | PENDIENTE | PENDIENTE | 2026-11-24 |
 | — | Anexos y bibliografía | PENDIENTE | PENDIENTE | PENDIENTE | 2026-11-24 |
+
+### 3.1 Matriz de entregas calendarizadas
+
+| ID | Entrega | Fecha / hora | Estructura | Contenido | Diagramas | Revisión | Estado |
+|---|---|---|---|---|---|---|---|
+| ENT-01 | Trabajo 2 — individual | 23/12 08:44 | CREADA | PENDIENTE | PENDIENTE | PENDIENTE | PENDIENTE |
+| ENT-02 | Trabajo 3 — grupal | 23/12 09:13 | CREADA | PENDIENTE | PENDIENTE | PENDIENTE | PENDIENTE |
+| ENT-03 | Trabajo 4 — final grupal | 23/12 17:36 | CREADA | PENDIENTE | PENDIENTE | PENDIENTE | PENDIENTE |
+| ENT-04 | Tarea grupal | 24/12 08:07 | CREADA | BLOQUEADA | — | — | PENDIENTE |
 
 ## 4. Controles automatizables
 
@@ -113,6 +133,7 @@ Criterio de compilación aceptable: **0 errores**, **0 referencias sin resolver*
 | Fecha | Fase | Alcance | Resultado | Observaciones |
 |---|---|---|---|---|
 | 2026-11-24 | 1–2 | Infraestructura y esqueleto LaTeX | CONFORME | Compilación limpia del esqueleto; 0 referencias rotas |
+| 2026-11-24 | 2 | Calendario, cronograma y estructura de entregas | CONFORME | Fechas registradas; enunciado de ENT-04 no recibido y declarado |
 
 ## 6. Criterios de cierre del proyecto
 

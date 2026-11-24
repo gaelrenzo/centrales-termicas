@@ -217,10 +217,39 @@ Prefijos: `init:`, `docs:`, `research:`, `equipos:`, `calc:`, `diagrams:`,
 - [ ] H8 — Expediente completo compilado.
 - [ ] H9 — Auditoría final y versión `v1.0.0`.
 
-## 10. Próxima fase recomendada
+## 10. Calendario académico vigente
+
+El periodo del 24/11/2026 al 24/12/2026 queda gobernado por el calendario
+académico, que comprime las fases 3 a 9. El detalle operativo está en
+`01-equipamiento-central-vapor/00_gestion/calendario_entregas.md` y
+`01-equipamiento-central-vapor/00_gestion/plan_trabajo.md`.
+
+| ID | Actividad | Fecha | Hora límite | Fase asociada |
+|---|---|---|---|---|
+| ENT-01 | Trabajo 2 — presentación individual | 2026-12-23 | 08:44 a. m. | FASE 9 |
+| ENT-02 | Trabajo 3 — presentación grupal | 2026-12-23 | 09:13 a. m. | FASE 9 |
+| ENT-03 | Trabajo 4 — presentación final grupal | 2026-12-23 | 05:36 p. m. | FASE 9 |
+| ENT-04 | Tarea grupal (enunciado no recibido) | 2026-12-24 | 08:07 a. m. | FASE 10 |
+
+Reglas derivadas:
+
+1. La prioridad es el **alcance mínimo viable** de cada entrega, no la
+   terminación superficial de los quince capítulos.
+2. Las tres presentaciones reutilizan el expediente y los diagramas; no generan
+   contenido paralelo.
+3. El enunciado de ENT-04 no se inventa: permanece bloqueado hasta su recepción.
+4. Las fases 3 a 8 se solapan para llegar al 20/12/2026 con el material
+   presentable cerrado.
+5. Los hitos H4 a H8 se reinterpretan como avances parciales verificables dentro
+   de ese periodo.
+
+## 11. Próxima fase recomendada
 
 **FASE 3 — Fundamentos termodinámicos.** Antes de redactar, definir con el
 docente o la consigna: potencia del caso de estudio y entregable de la primera
 unidad, para no fijar supuestos prematuros. Mientras tanto puede avanzarse la
 investigación bibliográfica del ciclo Rankine y la clasificación de centrales,
 que no depende de esas decisiones.
+
+**Acción inmediata:** cerrar ACT-01 (tabla de propiedades del agua con fuente
+verificada), por ser requisito de los cálculos y de la ruta crítica de ENT-01.

@@ -1,36 +1,29 @@
-# Presentación
+# Presentación (carpeta reasignada)
 
-Material de exposición del trabajo 01. Se produce **después** de aprobar el
-expediente, para que la presentación no contradiga al documento.
+> **Aviso de reorganización (2026-11-24).** Las presentaciones calendarizadas se
+> trasladaron a `../02_presentaciones/`:
+>
+> | Entrega | Fecha | Hora límite | Carpeta |
+> |---|---|---|---|
+> | ENT-01 — Trabajo 2 (individual) | 2026-12-23 | 08:44 a. m. | `../02_presentaciones/trabajo_02/` |
+> | ENT-02 — Trabajo 3 (grupal) | 2026-12-23 | 09:13 a. m. | `../02_presentaciones/trabajo_03_grupal/` |
+> | ENT-03 — Trabajo 4 (final grupal) | 2026-12-23 | 05:36 p. m. | `../02_presentaciones/trabajo_04_final/` |
+>
+> Esta carpeta no se elimina para conservar el historial del repositorio, pero
+> **no debe usarse para las entregas**. No se duplica material aquí.
 
-## 1. Estructura prevista
+## Uso permitido
 
-| Parte | Contenido | Fuente en el expediente |
-|---|---|---|
-| 1 | Contexto y objetivo del estudio | Cap. I |
-| 2 | Fundamentos del ciclo Rankine | Cap. II |
-| 3 | Configuraciones y equipos principales | Caps. III–VI |
-| 4 | Condensación, agua y sistema eléctrico | Caps. VII–IX |
-| 5 | Comparación de combustibles y selección | Caps. IV, XI |
-| 6 | Resultados de los cálculos | Cap. XII |
-| 7 | Operación, seguridad y ambiente | Caps. XIII–XIV |
-| 8 | Conclusiones y recomendaciones | Cap. XV |
+Solo material de exposición no calendarizado (por ejemplo, una defensa futura
+del expediente) que no corresponda a ENT-01, ENT-02 ni ENT-03. En ese caso, se
+documenta aquí con su propia fecha y alcance.
 
-## 2. Reglas
+## Reglas
 
-1. Cada diapositiva técnica remite a la figura, tabla o cálculo del expediente.
-2. No se introducen datos que no estén en el informe aprobado.
-3. Las figuras se exportan del mismo origen vectorial de `06_diagramas/`.
-4. Se declaran los supuestos del caso de estudio en la primera diapositiva
-   técnica.
-5. Duración y número de diapositivas se ajustan a la consigna académica.
+1. No copiar presentaciones de `02_presentaciones/` en esta carpeta.
+2. La fuente única de datos sigue siendo el expediente (`09_informe/`).
+3. Cualquier material nuevo se registra en `../00_gestion/seguimiento.md`.
 
-## 3. Herramienta
+## Estado
 
-Por definir según disponibilidad (LaTeX Beamer, LibreOffice Impress o
-PowerPoint). Si se usa Beamer, se crea `presentacion.tex` en esta carpeta con el
-mismo preámbulo institucional.
-
-## 4. Estado
-
-PENDIENTE — no se inicia hasta que el expediente esté en `APROBADO`.
+Sin contenido activo. Carpeta conservada por trazabilidad.

@@ -1,5 +1,9 @@
 # Seguimiento de capítulos — Trabajo 01
 
+> Este documento controla el avance **por capítulo**. El avance por **entrega y
+> actividad** se controla en `seguimiento.md`, y las fechas en
+> `calendario_entregas.md`.
+
 Estados: `PENDIENTE` · `EN INVESTIGACIÓN` · `EN DESARROLLO` · `EN REVISIÓN` ·
 `APROBADO`
 

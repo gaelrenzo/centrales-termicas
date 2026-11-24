@@ -28,7 +28,15 @@ verificaciones específicas del expediente y su evidencia.
 - [ ] Referenciado en el texto y con leyenda «Fuente: …».
 - [ ] Legible en escala de grises.
 
-### 1.4 Capítulo
+### 1.4 Presentación (`ENT-0N`)
+- [ ] Las siete secciones obligatorias están presentes.
+- [ ] Cada dato remite al capítulo, figura o cálculo de origen.
+- [ ] Diagramas y tablas coinciden con el expediente.
+- [ ] Conclusiones sustentadas y sin datos nuevos.
+- [ ] Sin duplicación innecesaria entre presentaciones.
+- [ ] Archivo probado y carga con 60 min de margen.
+
+### 1.5 Capítulo
 - [ ] Coherencia con los capítulos vecinos y sin duplicación.
 - [ ] Ecuaciones numeradas y referenciadas.
 - [ ] Tablas y figuras citadas antes de aparecer.
@@ -44,6 +52,13 @@ verificaciones específicas del expediente y su evidencia.
 | Índice de cálculos | `INDICE_CALCULOS.md` | EN DESARROLLO | — | 2026-11-24 | Alcance definido, cálculos pendientes |
 | Inventario de diagramas | `INVENTARIO_DIAGRAMAS.md` | EN DESARROLLO | — | 2026-11-24 | Figuras planificadas, fuentes pendientes |
 | Esqueleto LaTeX | `09_informe/latex/main.tex` | APROBADO | — | 2026-11-24 | Compila sin errores ni referencias rotas |
+| Calendario de entregas | `00_gestion/calendario_entregas.md` | APROBADO | — | 2026-11-24 | Cuatro entregas y alertas registradas |
+| Cronograma | `00_gestion/plan_trabajo.md` | APROBADO | — | 2026-11-24 | Fases, ruta crítica y puntos de control |
+| Control de avance | `00_gestion/seguimiento.md` | APROBADO | — | 2026-11-24 | Tablero y checklist por entrega |
+| ENT-01 presentación individual | `02_presentaciones/trabajo_02/` | PENDIENTE | — | 2026-11-24 | Estructura creada, contenido pendiente |
+| ENT-02 presentación grupal | `02_presentaciones/trabajo_03_grupal/` | PENDIENTE | — | 2026-11-24 | Integrantes y rúbrica por confirmar |
+| ENT-03 presentación final grupal | `02_presentaciones/trabajo_04_final/` | PENDIENTE | — | 2026-11-24 | Integrantes y rúbrica por confirmar |
+| ENT-04 tarea grupal | `03_tarea_grupal/` | PENDIENTE | — | 2026-11-24 | Enunciado no recibido; alcance no definido |
 
 ## 3. Registro de no conformidades
 

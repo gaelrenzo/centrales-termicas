@@ -7,12 +7,17 @@ presentaciones terminadas.
 
 ```
 AAA-MM-DD_CT01_EquipamientoCentralVapor_vX.Y.Z.pdf
-AAA-MM-DD_CT01_Presentacion_vX.Y.Z.pdf
+AAA-MM-DD_CT01_Presentacion_T0N_vX.Y.Z.pdf
+AAA-MM-DD_CT01_TareaGrupal_vX.Y.Z.<ext>
 ```
 
 - `CT01`: código del trabajo.
+- `T0N`: número de la presentación (T02, T03, T04).
 - `vX.Y.Z`: versión semántica del documento.
 - No se sobrescribe un entregable publicado: se agrega una versión nueva.
+
+Las presentaciones se preparan en `../02_presentaciones/` y la tarea grupal en
+`../03_tarea_grupal/`; aquí solo se archiva la versión cargada.
 
 ## 2. Requisitos para incorporar un entregable
 

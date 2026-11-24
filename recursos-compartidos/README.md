@@ -27,6 +27,7 @@ al registro bibliográfico: toda fuente usada debe quedar registrada en
 - `plantillas/PLANTILLA_MEMORIA_CALCULO.md`
 - `plantillas/PLANTILLA_SEGUIMIENTO_CAPITULOS.md`
 - `plantillas/PLANTILLA_FUENTE.md`
+- `plantillas/PLANTILLA_PRESENTACION.md`
 
 Se copian al trabajo correspondiente y se completan sin alterar la estructura de
 campos, para permitir búsquedas y verificaciones automáticas.

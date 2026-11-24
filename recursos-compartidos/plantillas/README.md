@@ -9,6 +9,7 @@ uniforme y permitir verificaciones automáticas.
 | `PLANTILLA_MEMORIA_CALCULO.md` | Memorias de cálculo en `05_calculos/` |
 | `PLANTILLA_SEGUIMIENTO_CAPITULOS.md` | Control de estados en `00_gestion/` |
 | `PLANTILLA_FUENTE.md` | Registro bibliográfico `SRC-NNN` |
+| `PLANTILLA_PRESENTACION.md` | Presentaciones ENT-01 a ENT-03 |
 
 ## Reglas
 

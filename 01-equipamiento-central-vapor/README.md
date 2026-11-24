@@ -50,7 +50,7 @@ El detalle de estados, fuentes y pendientes está en
 
 | Carpeta | Contenido | Documento guía |
 |---|---|---|
-| `00_gestion/` | Plan, seguimiento, calidad y registro de fuentes | `PLAN_TRABAJO.md` |
+| `00_gestion/` | Plan, seguimiento, calidad y registro de fuentes | `plan_trabajo.md` |
 | `01_investigacion/` | Notas, matrices y bitácora de búsqueda | `README.md` |
 | `02_fundamentos/` | Marco teórico y ecuaciones de referencia | `README.md` |
 | `03_equipos/` | Fichas técnicas `EQ-NN` | `CATALOGO_EQUIPOS.md` |
@@ -63,6 +63,12 @@ El detalle de estados, fuentes y pendientes está en
 | `10_presentacion/` | Exposición y material de apoyo | `README.md` |
 | `11_anexos/` | Anexos, planos y memorias extensas | `README.md` |
 | `12_entregables/` | PDF y versiones aprobadas | `README.md` |
+| `02_presentaciones/` | Tres presentaciones calendarizadas (ENT-01 a ENT-03) | `README.md` |
+| `03_tarea_grupal/` | Tarea grupal ENT-04 (enunciado pendiente) | `README.md` |
+
+> `02_presentaciones/` y `03_tarea_grupal/` usan numeración propia de entregas y
+> no forman parte de la secuencia `00_…12_` del expediente. Se mantienen
+> separadas para no alterar la estructura del informe.
 
 ## 4. Decisiones abiertas
 
@@ -90,4 +96,25 @@ Ninguna de estas decisiones se adopta sin evidencia y registro:
 - Esqueleto LaTeX compilable con portada, índices, 15 capítulos y anexo.
 - Sin desarrollo técnico ni fuentes cargadas: los capítulos son esqueletos con
   estado `PENDIENTE`.
+- Calendario académico registrado y cronograma al 24/12/2026 definido.
+- Estructura de presentaciones y de la tarea grupal creada.
 - Siguiente fase: fundamentos termodinámicos (capítulos II y III).
+
+## 7. Calendario académico vigente
+
+| ID | Actividad | Fecha | Hora límite | Estado |
+|---|---|---|---|---|
+| ENT-01 | Trabajo 2 — presentación individual | 2026-12-23 | 08:44 a. m. | PENDIENTE |
+| ENT-02 | Trabajo 3 — presentación grupal | 2026-12-23 | 09:13 a. m. | PENDIENTE |
+| ENT-03 | Trabajo 4 — presentación final grupal | 2026-12-23 | 05:36 p. m. | PENDIENTE |
+| ENT-04 | Tarea grupal | 2026-12-24 | 08:07 a. m. | PENDIENTE (enunciado no recibido) |
+
+- Detalle y alertas: `00_gestion/calendario_entregas.md`.
+- Cronograma y ruta crítica: `00_gestion/plan_trabajo.md`.
+- Tablero de avance: `00_gestion/seguimiento.md`.
+- Las presentaciones están en `02_presentaciones/`; la tarea grupal, en
+  `03_tarea_grupal/`.
+
+> «Trabajo 2», «Trabajo 3» y «Trabajo 4» son entregas de este Trabajo 01; no
+> corresponden a las carpetas reservadas `02-trabajo-pendiente/` a
+> `05-trabajo-pendiente/`.
