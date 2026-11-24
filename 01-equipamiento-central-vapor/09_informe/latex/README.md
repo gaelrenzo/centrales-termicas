@@ -28,8 +28,8 @@ compartidos se referencian con `\autoref`.
 ## 2. Compilación
 
 ```bash
-./compilar.sh            # compila en build/
-./compilar.sh --limpia   # borra build/ y recompila
+bash compilar.sh            # compila en build/
+bash compilar.sh --limpia   # borra build/ y recompila
 ```
 
 Equivale a:

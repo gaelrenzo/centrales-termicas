@@ -104,11 +104,12 @@ los paquetes listados en `01-equipamiento-central-vapor/09_informe/latex/README.
 
 ```bash
 cd 01-equipamiento-central-vapor/09_informe/latex
-latexmk -pdf -outdir=build main.tex   # o ./compilar.sh
+bash compilar.sh
 ```
 
-El PDF resultante se copia a `12_entregables/` solo cuando el capítulo
-correspondiente esté en estado `APROBADO`.
+El PDF se genera en `09_informe/latex/build/main.pdf` y se copia a
+`12_entregables/` solo cuando el expediente esté aprobado. Compilación verificada
+de la versión 0.1.0: 0 errores y 0 referencias sin resolver.
 
 ## Control de versiones
 
