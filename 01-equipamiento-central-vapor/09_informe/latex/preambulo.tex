@@ -1,0 +1,130 @@
+% =====================================================================
+%  Preámbulo del expediente técnico — Centrales Térmicas
+%  Trabajo 01: Equipamiento de una central a vapor
+%  Compilación prevista: pdfLaTeX + BibTeX (natbib)
+% =====================================================================
+
+% ---------- Codificación e idioma ----------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,es-tabla,es-nodecimaldot]{babel}
+\usepackage{lmodern}
+\usepackage{microtype}
+
+% ---------- Geometría y tipografía ----------
+\usepackage[a4paper,top=3cm,bottom=2.5cm,left=3cm,right=2.5cm,
+            headheight=15pt]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+\setlength{\parindent}{1.25em}
+\setlength{\parskip}{0.35em}
+
+% ---------- Matemáticas y unidades ----------
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{siunitx}
+\sisetup{detect-all,per-mode=symbol,range-units=single}
+
+% ---------- Tablas y figuras ----------
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage[font=small,labelfont=bf,justification=centering]{caption}
+\usepackage{subcaption}
+
+% ---------- Listas ----------
+\usepackage{enumitem}
+\setlist[itemize]{topsep=2pt,itemsep=1pt,parsep=0pt}
+\setlist[enumerate]{topsep=2pt,itemsep=1pt,parsep=0pt}
+
+% ---------- Encabezados y pies ----------
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\nouppercase{\leftmark}}
+\fancyhead[R]{\small\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyfoot[C]{\small\thepage}%
+  \renewcommand{\headrulewidth}{0pt}%
+}
+
+% ---------- Títulos de capítulo ----------
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries\Large}
+  {\filleft\MakeUppercase{\chaptertitlename}~\thechapter}
+  {1ex}
+  {\titlerule\vspace{1ex}\filright}
+  [\vspace{1ex}\titlerule]
+\titlespacing*{\chapter}{0pt}{-10pt}{30pt}
+\titleformat{\section}{\normalfont\large\bfseries}{\thesection}{0.8em}{}
+\titleformat{\subsection}{\normalfont\normalsize\bfseries}{\thesubsection}{0.8em}{}
+
+% ---------- Cajas de estado y notas ----------
+\usepackage[most]{tcolorbox}
+\newtcolorbox{cajaestado}[1][]{%
+  enhanced,breakable,
+  colback=orange!4!white,
+  colframe=orange!55!black,
+  fonttitle=\bfseries\small,
+  title={Estado del capítulo},
+  left=6pt,right=6pt,top=4pt,bottom=4pt,
+  boxrule=0.6pt,
+  #1
+}
+\newtcolorbox{cajanota}[1][]{%
+  enhanced,breakable,
+  colback=blue!3!white,
+  colframe=blue!45!black,
+  fonttitle=\bfseries\small,
+  left=6pt,right=6pt,top=4pt,bottom=4pt,
+  boxrule=0.5pt,
+  #1
+}
+
+% ---------- Bibliografía (autor-año) ----------
+\usepackage[round,authoryear]{natbib}
+\bibliographystyle{plainnat}
+\setcitestyle{authoryear,round,semicolon,aysep={,},yysep={;}}
+
+% ---------- Referencias cruzadas ----------
+\usepackage[
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=blue!45!black,
+  urlcolor=blue!45!black,
+  pdftitle={Equipamiento de una central a vapor},
+  pdfauthor={Mamani Galindo Renzo Gabriel},
+  pdfsubject={Centrales Termicas - Expediente tecnico},
+  pdfkeywords={central a vapor, ciclo Rankine, caldera, turbina, generador}
+]{hyperref}
+\usepackage{url}
+
+% ---------- Datos del documento ----------
+\newcommand{\titulotrabajo}{Equipamiento de una central a vapor}
+\newcommand{\subtitulotrabajo}{Expediente técnico de ingeniería}
+\newcommand{\autorproyecto}{Mamani Galindo Renzo Gabriel}
+\newcommand{\universidad}{Universidad Nacional del Altiplano}
+\newcommand{\escuelaprofesional}{Escuela Profesional de Ingeniería Mecánica Eléctrica}
+\newcommand{\asignatura}{Centrales Térmicas}
+\newcommand{\ciudad}{Puno, Perú}
+\newcommand{\periodo}{2026}
+
+% ---------- Comandos de trazabilidad ----------
+% Uso: \srcref{SRC-001} para referir una fuente registrada.
+\newcommand{\srcref}[1]{\textsf{[#1]}}
+% Uso: \hipotesis{...} para marcar un supuesto de cálculo.
+\newcommand{\hipotesis}[1]{\textcolor{orange!70!black}{\textbf{[HIPÓTESIS:} #1\textbf{]}}}
+% Uso: \ejemplo{...} para marcar un ejemplo académico.
+\newcommand{\ejemplo}[1]{\textcolor{blue!60!black}{\textbf{[EJEMPLO ACADÉMICO:} #1\textbf{]}}}
+
+% ---------- Profundidad de numeración ----------
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{2}

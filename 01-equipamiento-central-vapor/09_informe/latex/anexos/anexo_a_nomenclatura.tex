@@ -1,0 +1,91 @@
+% =====================================================================
+%  Anexo A — Nomenclatura y unidades
+% =====================================================================
+\chapter{Nomenclatura y unidades}
+\label{anexo:nomenclatura}
+
+Este anexo centraliza los símbolos, subíndices y unidades empleados en el
+expediente. Cualquier símbolo usado en un capítulo debe figurar aquí con el mismo
+significado; si un capítulo requiere un símbolo nuevo, se agrega primero a esta
+tabla.
+
+\section{Símbolos principales}
+
+\begin{longtable}{@{}p{2.4cm}p{7.2cm}p{3.6cm}@{}}
+  \toprule
+  \textbf{Símbolo} & \textbf{Magnitud} & \textbf{Unidad SI} \\
+  \midrule
+  \endhead
+  $h$        & Entalpía específica & \unit{kJ/kg} \\
+  $s$        & Entropía específica & \unit{kJ/(kg.K)} \\
+  $u$        & Energía interna específica & \unit{kJ/kg} \\
+  $v$        & Volumen específico & \unit{m^3/kg} \\
+  $c_p$      & Calor específico a presión constante & \unit{kJ/(kg.K)} \\
+  $p$        & Presión & \unit{kPa}, \unit{MPa} \\
+  $T$        & Temperatura & \unit{\degreeCelsius}, \unit{K} \\
+  $x$        & Título de vapor (fracción másica) & \unit{-} \\
+  $\dot m$   & Flujo másico & \unit{kg/s} \\
+  $\dot V$   & Flujo volumétrico & \unit{m^3/s} \\
+  $\dot Q$   & Potencia térmica & \unit{kW}, \unit{MW} \\
+  $\dot W$   & Potencia mecánica o eléctrica & \unit{kW}, \unit{MW} \\
+  $\eta$     & Rendimiento & \unit{-} \\
+  $\varphi$  & Relación aire--combustible & \unit{kg/kg}, \unit{Nm^3/Nm^3} \\
+  $\lambda$  & Coeficiente de exceso de aire & \unit{-} \\
+  $P$        & Potencia activa & \unit{kW}, \unit{MW} \\
+  $Q$        & Potencia reactiva & \unit{kvar}, \unit{Mvar} \\
+  $U$        & Tensión & \unit{kV} \\
+  $I$        & Corriente & \unit{A} \\
+  $f$        & Frecuencia & \unit{Hz} \\
+  $\cos\varphi$ & Factor de potencia & \unit{-} \\
+  \bottomrule
+\end{longtable}
+
+\section{Subíndices}
+
+\begin{longtable}{@{}p{2.4cm}p{9.4cm}@{}}
+  \toprule
+  \textbf{Subíndice} & \textbf{Significado} \\
+  \midrule
+  \endhead
+  $f$        & Foco frío / fluido de alimentación, según contexto (se declara en cada capítulo) \\
+  $c$        & Foco caliente / condensado, según contexto \\
+  $i$        & Entrada \\
+  $o$        & Salida (\textit{out}) \\
+  $s$        & Isoentrópico \\
+  $t$        & Turbina \\
+  $b$        & Bomba \\
+  $c$        & Condensador (cuando no haya ambigüedad) \\
+  $g$        & Generador \\
+  $n$        & Neto \\
+  $e$        & Eléctrico \\
+  $f$        & Combustible (\textit{fuel}) \\
+  \bottomrule
+\end{longtable}
+
+\begin{cajanota}[title={Regla de desambiguación}]
+Cuando un subíndice pueda tener dos significados, se usa el símbolo explícito en
+el capítulo (por ejemplo $\dot Q_{\text{comb}}$ para combustible y
+$\dot Q_{\text{cond}}$ para condensador) y se actualiza esta tabla. La
+ambigüedad no se tolera en un documento técnico.
+\end{cajanota}
+
+\section{Unidades y conversiones de uso frecuente}
+
+\begin{table}[H]
+  \centering
+  \small
+  \begin{tabular}{@{}ll@{}}
+    \toprule
+    \textbf{Magnitud} & \textbf{Equivalencia} \\
+    \midrule
+    Presión & \qty{1}{bar} = \qty{100}{kPa}; \qty{1}{MPa} = \qty{10}{bar} \\
+    Potencia & \qty{1}{MW} = \qty{1000}{kW}; \qty{1}{CV} = \qty{0.7355}{kW} \\
+    Flujo másico & \qty{1}{t/h} = \qty{0.2778}{kg/s} \\
+    Energía & \qty{1}{kWh} = \qty{3.6}{MJ} \\
+    Temperatura & $T[\unit{K}] = T[\unit{\degreeCelsius}] + 273.15$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Las equivalencias se usan solo como apoyo de conversión; el cálculo se realiza en
+unidades SI y se documenta la conversión en la memoria correspondiente.

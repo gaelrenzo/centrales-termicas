@@ -1,0 +1,69 @@
+% =====================================================================
+%  Ficha de control del documento
+% =====================================================================
+\thispagestyle{empty}
+% La portada reinicia el contador de página (comportamiento de titlepage);
+% se restablece para evitar destinos duplicados en el PDF.
+\setcounter{page}{2}
+\begin{center}
+  {\large\bfseries Ficha de control del documento}
+\end{center}
+
+\vspace{0.5cm}
+
+\begin{table}[H]
+  \centering
+  \small
+  \renewcommand{\arraystretch}{1.35}
+  \begin{tabularx}{\textwidth}{@{}>{\bfseries}p{4.2cm}X@{}}
+    \toprule
+    Título & \titulotrabajo \\
+    Subtítulo & \subtitulotrabajo \\
+    Autor & \autorproyecto \\
+    Universidad & \universidad \\
+    Escuela profesional & \escuelaprofesional \\
+    Asignatura & \asignatura \\
+    Tipo de documento & Expediente técnico de ingeniería \\
+    Idioma & Español técnico \\
+    Sistema de unidades & Sistema Internacional (SI) \\
+    Versión & 0.1.0 \\
+    Fecha & \today \\
+    Estado global & Infraestructura — capítulos en \texttt{PENDIENTE} \\
+    Repositorio & \texttt{centrales-termicas} \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+\vspace{0.3cm}
+
+\begin{cajanota}[title={Sobre esta versión}]
+Este documento es la \textbf{estructura compilable} del expediente. La portada,
+los índices, la numeración de capítulos, los encabezados y la base bibliográfica
+están operativos; el contenido técnico de cada capítulo se encuentra en estado
+\texttt{PENDIENTE} y se desarrollará según las fases de
+\texttt{PLAN\_MAESTRO.md}. No debe interpretarse como un estudio terminado.
+\end{cajanota}
+
+\vspace{0.3cm}
+
+\begin{table}[H]
+  \centering
+  \small
+  \renewcommand{\arraystretch}{1.25}
+  \begin{tabular}{@{}lll@{}}
+    \toprule
+    \textbf{Elemento} & \textbf{Responsable} & \textbf{Estado} \\
+    \midrule
+    Estructura del repositorio & Autor & Completado \\
+    Documentación maestra & Autor & Completado \\
+    Plantillas de trabajo & Autor & Completado \\
+    Esqueleto LaTeX & Autor & Completado \\
+    Capítulos I--XV & Autor & Pendiente \\
+    Memoria de cálculos & Autor & Pendiente \\
+    Diagramas & Autor & Pendiente \\
+    Revisión técnica & Autor & Pendiente \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\cleardoublepage

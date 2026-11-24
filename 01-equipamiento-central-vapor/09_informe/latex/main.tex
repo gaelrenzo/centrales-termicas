@@ -1,0 +1,71 @@
+% =====================================================================
+%  EXPEDIENTE TÉCNICO — CENTRALES TÉRMICAS
+%  Trabajo 01: Equipamiento de una central a vapor
+%
+%  Autor: Mamani Galindo Renzo Gabriel
+%  Compilación: pdflatex → bibtex → pdflatex → pdflatex
+%  (ver compilar.sh o el README de esta carpeta)
+%
+%  Estado: esqueleto de infraestructura. Los capítulos están en PENDIENTE.
+% =====================================================================
+\documentclass[12pt,a4paper,oneside]{book}
+
+\input{preambulo}
+
+\begin{document}
+
+% ------------------------- Preliminares -------------------------
+\frontmatter
+\input{portada}
+\input{ficha_documento}
+
+\cleardoublepage
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{\listtablename}
+\listoftables
+
+% ------------------------- Cuerpo -------------------------
+\mainmatter
+
+\input{capitulos/cap01_generalidades}
+\input{capitulos/cap02_fundamentos}
+\input{capitulos/cap03_clasificacion}
+\input{capitulos/cap04_combustion_combustibles}
+\input{capitulos/cap05_generacion_vapor}
+\input{capitulos/cap06_turbinas_vapor}
+\input{capitulos/cap07_condensacion_refrigeracion}
+\input{capitulos/cap08_agua_alimentacion}
+\input{capitulos/cap09_generacion_electrica}
+\input{capitulos/cap10_auxiliares_control}
+\input{capitulos/cap11_comparacion_seleccion}
+\input{capitulos/cap12_dimensionamiento_calculos}
+\input{capitulos/cap13_operacion_mantenimiento}
+\input{capitulos/cap14_ambiente_eficiencia}
+\input{capitulos/cap15_conclusiones}
+
+% ------------------------- Anexos -------------------------
+\appendix
+\input{anexos/anexo_a_nomenclatura}
+
+% ------------------------- Bibliografía -------------------------
+% DESACTIVADA EN LA FASE DE INFRAESTRUCTURA.
+% Se activa cuando bibliografia.bib contenga al menos una fuente VERIFICADA:
+% descomentar el bloque siguiente y compilar con BibTeX (ver compilar.sh).
+%
+% \backmatter
+% \cleardoublepage
+% \phantomsection
+% \addcontentsline{toc}{chapter}{Bibliografía}
+% \markboth{Bibliografía}{Bibliografía}
+% \bibliography{bibliografia}
+
+\end{document}
