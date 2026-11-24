@@ -6,6 +6,21 @@ proyecto documental.
 
 ## [Unreleased]
 
+## [0.3.1] — 2026-11-24
+
+### Añadido
+
+- `README.md` en todas las carpetas que carecían de él: `00_gestion/`,
+  `03_equipos/`, `05_calculos/`, `06_diagramas/` y las subcarpetas
+  `latex/capitulos/`, `latex/anexos/` y `latex/figuras/`.
+- Cada README explica el propósito de la carpeta, su índice o plantilla, las
+  reglas, lo que no debe guardarse allí, el estado y los próximos pasos.
+
+### Verificado
+
+- Las 37 carpetas del repositorio (excluyendo `.git` y `build/`) contienen un
+  `README.md`.
+
 ## [0.3.0] — 2026-11-24
 
 ### Añadido

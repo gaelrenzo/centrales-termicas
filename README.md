@@ -53,6 +53,9 @@ centrales-termicas/
 └── 05-trabajo-pendiente/
 ```
 
+Cada carpeta del repositorio incluye un `README.md` con su propósito, su índice,
+sus reglas, lo que no debe guardarse en ella, su estado y los próximos pasos.
+
 El trabajo 01 añade dos carpetas propias de entregas —
 `02_presentaciones/` (ENT-01 a ENT-03) y `03_tarea_grupal/` (ENT-04)— que no
 forman parte de la secuencia `00_…12_` del expediente.
