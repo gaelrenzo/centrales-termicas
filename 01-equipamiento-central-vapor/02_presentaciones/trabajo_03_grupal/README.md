@@ -8,8 +8,11 @@
 | Hora límite | 09:13 a. m. |
 | Modalidad | Por confirmar |
 | Duración | Por confirmar |
-| Integrantes | **Por registrar** (no se inventan) |
+| Sección / Grupo | Grupo A / Grupo 7 |
+| Integrantes | Mamani Galindo Renzo Gabriel; Ramos Yapo Aquiles Taylor; Siguayro Coila Dilmar Humberto; Mayta Lampa Steven Alex |
 | Estado | PENDIENTE |
+
+> Integrantes y datos del grupo: `../../00_gestion/informacion_academica.md`.
 | Versión | 0.1 |
 | Última actualización | 2026-11-24 |
 
@@ -82,7 +85,7 @@ Base común del expediente, ampliada solo con fuentes verificadas y registradas.
 
 ## 8. Logística
 
-- [ ] Registrar integrantes, roles y contacto.
+- [ ] Asignar roles y registrar contacto (integrantes definidos).
 - [ ] Confirmar modalidad, duración y canal de carga.
 - [ ] Ensayo conjunto antes del 22/12/2026.
 - [ ] Archivo único consolidado y PDF de respaldo.
@@ -90,6 +93,6 @@ Base común del expediente, ampliada solo con fuentes verificadas y registradas.
 
 ## 9. Pendientes específicos
 
-1. Integrantes y reparto de secciones.
+1. Reparto de secciones (integrantes definidos).
 2. Rúbrica o indicaciones de la presentación grupal.
 3. Cerrar matriz de combustibles y capítulo XI.

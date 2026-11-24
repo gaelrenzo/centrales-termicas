@@ -56,9 +56,9 @@ verificaciones específicas del expediente y su evidencia.
 | Cronograma | `00_gestion/plan_trabajo.md` | APROBADO | — | 2026-11-24 | Fases, ruta crítica y puntos de control |
 | Control de avance | `00_gestion/seguimiento.md` | APROBADO | — | 2026-11-24 | Tablero y checklist por entrega |
 | ENT-01 presentación individual | `02_presentaciones/trabajo_02/` | PENDIENTE | — | 2026-11-24 | Estructura creada, contenido pendiente |
-| ENT-02 presentación grupal | `02_presentaciones/trabajo_03_grupal/` | PENDIENTE | — | 2026-11-24 | Integrantes y rúbrica por confirmar |
-| ENT-03 presentación final grupal | `02_presentaciones/trabajo_04_final/` | PENDIENTE | — | 2026-11-24 | Integrantes y rúbrica por confirmar |
-| ENT-04 tarea grupal | `03_tarea_grupal/` | PENDIENTE | — | 2026-11-24 | Enunciado no recibido; alcance no definido |
+| ENT-02 presentación grupal | `02_presentaciones/trabajo_03_grupal/` | PENDIENTE | — | 2026-11-24 | Integrantes registrados; rúbrica por confirmar |
+| ENT-03 presentación final grupal | `02_presentaciones/trabajo_04_final/` | PENDIENTE | — | 2026-11-24 | Integrantes registrados; rúbrica por confirmar |
+| ENT-04 tarea grupal | `03_tarea_grupal/` | PENDIENTE | — | 2026-11-24 | Enunciado no recibido; integrantes registrados; alcance no definido |
 
 ## 3. Registro de no conformidades
 

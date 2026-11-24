@@ -8,8 +8,11 @@
 | Hora límite | 05:36 p. m. |
 | Modalidad | Por confirmar |
 | Duración | Por confirmar |
-| Integrantes | **Por registrar** (no se inventan) |
+| Sección / Grupo | Grupo A / Grupo 7 |
+| Integrantes | Mamani Galindo Renzo Gabriel; Ramos Yapo Aquiles Taylor; Siguayro Coila Dilmar Humberto; Mayta Lampa Steven Alex |
 | Estado | PENDIENTE |
+
+> Integrantes y datos del grupo: `../../00_gestion/informacion_academica.md`.
 | Versión | 0.1 |
 | Última actualización | 2026-11-24 |
 
@@ -80,7 +83,7 @@ Completa y verificada. No se incluyen fuentes en estado `PENDIENTE`.
 
 ## 8. Logística
 
-- [ ] Integrantes y roles definitivos.
+- [ ] Roles definitivos (integrantes definidos).
 - [ ] Confirmar modalidad, duración y canal de carga.
 - [ ] Ensayo general con el expediente compilado.
 - [ ] PDF del expediente y de la presentación como respaldo.
@@ -88,7 +91,7 @@ Completa y verificada. No se incluyen fuentes en estado `PENDIENTE`.
 
 ## 9. Pendientes específicos
 
-1. Integrantes y reparto.
+1. Reparto de secciones (integrantes definidos).
 2. Rúbrica del trabajo final.
 3. Cerrar capítulo XI (selección) y XII (cálculos).
 4. Compilar el PDF definitivo del expediente.

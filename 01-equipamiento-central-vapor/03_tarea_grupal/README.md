@@ -6,9 +6,12 @@
 | Fecha | 2026-12-24 |
 | Hora límite | 08:07 a. m. |
 | Tipo | Grupal |
-| Integrantes | **Por registrar** (no se inventan) |
+| Sección / Grupo | Grupo A / Grupo 7 |
+| Integrantes | Mamani Galindo Renzo Gabriel; Ramos Yapo Aquiles Taylor; Siguayro Coila Dilmar Humberto; Mayta Lampa Steven Alex |
 | Enunciado | **NO RECIBIDO** |
 | Estado | PENDIENTE (bloqueada por enunciado) |
+
+> Integrantes y datos del grupo: `../00_gestion/informacion_academica.md`.
 | Última actualización | 2026-11-24 |
 
 ## 1. Situación

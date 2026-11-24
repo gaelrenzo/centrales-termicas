@@ -6,6 +6,7 @@
 | Trabajo | 01 — Equipamiento de una central a vapor |
 | Estudiante | MAMANI GALINDO RENZO GABRIEL |
 | Zona horaria de referencia | América/Lima (UTC−5) |
+| Datos académicos | `informacion_academica.md` |
 | Fecha de registro | 2026-11-24 |
 | Versión | 1.0 |
 | Estado | VIGENTE |
@@ -21,9 +22,9 @@
 | ID | Actividad | Tipo | Fecha | Hora límite | Estado | Condición |
 |---|---|---|---|---|---|---|
 | ENT-01 | **TRABAJO 2** — Presentación de trabajo de equipamiento de una central a vapor | Individual | 2026-12-23 | 08:44 a. m. | PENDIENTE | Requiere capítulos I–III, V–VI y FIG-01/02/03/07 |
-| ENT-02 | **TRABAJO 3** — Presentación de trabajo grupal de equipamiento de centrales a vapor | Grupal | 2026-12-23 | 09:13 a. m. | PENDIENTE | Integrantes y rúbrica por registrar; 29 min después de ENT-01 |
-| ENT-03 | **TRABAJO 4** — Presentación final de trabajo grupal (equipamiento de una central a vapor) | Grupal | 2026-12-23 | 05:36 p. m. | PENDIENTE | Integrantes y rúbrica por registrar |
-| ENT-04 | **TAREA GRUPAL** | Grupal | 2026-12-24 | 08:07 a. m. | PENDIENTE | **Enunciado no recibido**; alcance desconocido |
+| ENT-02 | **TRABAJO 3** — Presentación de trabajo grupal de equipamiento de centrales a vapor | Grupal | 2026-12-23 | 09:13 a. m. | PENDIENTE | Integrantes registrados; rúbrica por confirmar; 29 min después de ENT-01 |
+| ENT-03 | **TRABAJO 4** — Presentación final de trabajo grupal (equipamiento de una central a vapor) | Grupal | 2026-12-23 | 05:36 p. m. | PENDIENTE | Integrantes registrados; rúbrica por confirmar |
+| ENT-04 | **TAREA GRUPAL** | Grupal | 2026-12-24 | 08:07 a. m. | PENDIENTE | **Enunciado no recibido**; alcance desconocido; integrantes registrados |
 
 ### Observaciones
 
@@ -69,9 +70,9 @@
 | Actividad | ¿Enunciado recibido? | Fecha | Archivo / evidencia | Observaciones |
 |---|---|---|---|---|
 | ENT-01 | Por confirmar | — | — | Se conoce nombre, fecha y hora; falta rúbrica o indicaciones |
-| ENT-02 | Por confirmar | — | — | Falta confirmar integrantes y rúbrica |
-| ENT-03 | Por confirmar | — | — | Falta confirmar integrantes y rúbrica |
-| ENT-04 | **NO** | — | — | Pendiente de recepción; no se inventa el alcance |
+| ENT-02 | Por confirmar | — | — | Integrantes registrados; falta rúbrica |
+| ENT-03 | Por confirmar | — | — | Integrantes registrados; falta rúbrica |
+| ENT-04 | **NO** | — | — | Pendiente de recepción; integrantes registrados; no se inventa el alcance |
 
 ## 5. Historial del calendario
 

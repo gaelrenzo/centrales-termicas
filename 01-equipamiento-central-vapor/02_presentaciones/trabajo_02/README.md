@@ -4,6 +4,7 @@
 |---|---|
 | Título oficial | PRESENTACIÓN DE TRABAJO DE EQUIPAMIENTO DE UNA CENTRAL A VAPOR |
 | Tipo | Individual |
+| Sección / Grupo | Grupo A / Grupo 7 |
 | Fecha | 2026-12-23 |
 | Hora límite | 08:44 a. m. |
 | Modalidad | Por confirmar |

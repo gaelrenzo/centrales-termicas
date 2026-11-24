@@ -6,6 +6,32 @@ proyecto documental.
 
 ## [Unreleased]
 
+## [0.3.0] — 2026-11-24
+
+### Añadido
+
+- `00_gestion/informacion_academica.md` con asignatura, docente, sección, grupo
+  e integrantes del Grupo 7.
+- Datos del docente, sección y grupo en la portada, la ficha de control y los
+  índices del proyecto.
+
+### Cambiado
+
+- Asignatura actualizada a **Centrales Termoeléctricas**.
+- Docente responsable: Paredes Pareja Walter Oswaldo.
+- Sección: Grupo A · Grupo: 7.
+- Presentaciones ENT-02 y ENT-03 y tarea grupal ENT-04 con los cuatro
+  integrantes registrados; los roles de exposición siguen por asignar.
+- Condiciones del calendario y del tablero actualizadas: integrantes definidos,
+  rúbricas y enunciado aún pendientes.
+
+### Notas
+
+- La autoría del expediente del Trabajo 01 sigue siendo individual (Mamani
+  Galindo Renzo Gabriel); la autoría grupal corresponde a ENT-02, ENT-03 y
+  ENT-04.
+- No se inventaron correos, códigos de estudiante, roles ni rúbricas.
+
 ## [0.2.0] — 2026-11-24
 
 ### Añadido

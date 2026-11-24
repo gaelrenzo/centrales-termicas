@@ -3,6 +3,9 @@
 | Dato | Detalle |
 |---|---|
 | Estudiante | MAMANI GALINDO RENZO GABRIEL |
+| Asignatura | Centrales Termoeléctricas |
+| Docente responsable | Paredes Pareja Walter Oswaldo |
+| Sección / Grupo | Grupo A / Grupo 7 |
 | Área | Ingeniería Mecánica Eléctrica |
 | Universidad | Universidad Nacional del Altiplano |
 | Alcance | Investigación teórica y comparación de tecnologías |

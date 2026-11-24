@@ -1,9 +1,12 @@
 # Plan Maestro del Proyecto «Centrales Térmicas»
 
 **Estudiante:** MAMANI GALINDO RENZO GABRIEL
+**Asignatura:** Centrales Termoeléctricas
+**Docente responsable:** Paredes Pareja Walter Oswaldo
+**Sección / Grupo:** Grupo A / Grupo 7
 **Universidad:** Universidad Nacional del Altiplano
 **Área:** Ingeniería Mecánica Eléctrica
-**Versión del plan:** 0.1.0 (fase de infraestructura)
+**Versión del plan:** 0.2.0 (calendario académico vigente)
 **Última actualización:** 2026-11-24
 
 ---

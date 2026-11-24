@@ -13,6 +13,8 @@ material ya existente en `02_fundamentos/`, `03_equipos/`, `04_combustibles/`,
 
 Calendario y alertas: `../00_gestion/calendario_entregas.md`.
 Cronograma: `../00_gestion/plan_trabajo.md`.
+Datos del grupo (integrantes, sección y docente):
+`../00_gestion/informacion_academica.md`.
 
 ## 1. Estructura obligatoria de cada presentación
 

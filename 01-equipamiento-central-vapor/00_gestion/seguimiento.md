@@ -7,6 +7,7 @@
 | Versión | 1.0 |
 | Fecha de corte | 2026-11-24 |
 | Calendario | `calendario_entregas.md` |
+| Datos académicos | `informacion_academica.md` |
 | Cronograma | `plan_trabajo.md` |
 | Estado de capítulos | `SEGUIMIENTO_CAPITULOS.md` |
 
@@ -18,7 +19,7 @@ Estados permitidos: `PENDIENTE` · `EN INVESTIGACIÓN` · `EN DESARROLLO` ·
 | ID | Entrega | Fecha / hora | Estado | Avance | Semáforo | Próxima acción |
 |---|---|---|---|---|---|---|
 | ENT-01 | Trabajo 2 — presentación individual | 23/12 08:44 | PENDIENTE | 0 % | 🔴 Rojo | Cerrar cap. II y FIG-03 |
-| ENT-02 | Trabajo 3 — presentación grupal | 23/12 09:13 | PENDIENTE | 0 % | 🔴 Rojo | Definir integrantes y reparto |
+| ENT-02 | Trabajo 3 — presentación grupal | 23/12 09:13 | PENDIENTE | 0 % | 🔴 Rojo | Asignar reparto de secciones |
 | ENT-03 | Trabajo 4 — presentación final grupal | 23/12 17:36 | PENDIENTE | 0 % | 🔴 Rojo | Cerrar cap. XI (selección) |
 | ENT-04 | Tarea grupal | 24/12 08:07 | PENDIENTE | 0 % | ⚫ Bloqueado | Esperar enunciado |
 
@@ -48,7 +49,7 @@ Cada entrega se considera lista solo con los ocho puntos cerrados.
 
 ### ENT-02 — Trabajo 3 (grupal, 23/12 09:13)
 
-- [ ] Integrantes y roles registrados
+- [ ] Integrantes registrados y roles asignados
 - [ ] Objetivo e índice acordados con el grupo
 - [ ] Contenido técnico desde caps. I–VII, IX y XI
 - [ ] Diagramas FIG-01 a 05 y 07 a 10
@@ -59,7 +60,7 @@ Cada entrega se considera lista solo con los ocho puntos cerrados.
 
 ### ENT-03 — Trabajo 4 (grupal, 23/12 17:36)
 
-- [ ] Integrantes y roles registrados
+- [ ] Integrantes registrados y roles asignados
 - [ ] Objetivo e índice del trabajo final
 - [ ] Contenido integrado con la selección justificada (cap. XI)
 - [ ] Diagramas FIG-01 a 12 (según alcance)
@@ -92,8 +93,8 @@ Cada entrega se considera lista solo con los ocho puntos cerrados.
 | ACT-07 | FIG-01…12 | F7 | PENDIENTE | 0 % | Depende de ACT-03/06 | Individual |
 | ACT-08 | Redacción e integración del expediente | F8 | PENDIENTE | 0 % | Depende de ACT-02…07 | Individual |
 | ACT-09 | ENT-01 | P1 | PENDIENTE | 0 % | Depende de ACT-02/07 | Individual |
-| ACT-10 | ENT-02 | P2 | PENDIENTE | 0 % | Integrantes por confirmar | Grupal |
-| ACT-11 | ENT-03 | P3 | PENDIENTE | 0 % | Integrantes por confirmar | Grupal |
+| ACT-10 | ENT-02 | P2 | PENDIENTE | 0 % | Roles por asignar | Grupal |
+| ACT-11 | ENT-03 | P3 | PENDIENTE | 0 % | Roles por asignar | Grupal |
 | ACT-12 | ENT-04 | TG | PENDIENTE | 0 % | Enunciado no recibido | Grupal |
 
 ## 4. Bitácora de avance

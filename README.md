@@ -8,6 +8,9 @@ del Altiplano (Puno, Perú).
 |---|---|
 | Proyecto | Centrales Térmicas |
 | Estudiante | MAMANI GALINDO RENZO GABRIEL |
+| Asignatura | Centrales Termoeléctricas |
+| Docente responsable | Paredes Pareja Walter Oswaldo |
+| Sección / Grupo | Grupo A / Grupo 7 |
 | Área académica | Ingeniería Mecánica Eléctrica |
 | Universidad | Universidad Nacional del Altiplano |
 | Idioma | Español técnico |
