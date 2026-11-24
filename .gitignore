@@ -1,0 +1,77 @@
+# --- LaTeX (compilados y auxiliares) ---
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.brf
+*.fdb_latexmk
+*.fls
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.idx
+*.ilg
+*.ind
+*.ist
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.synctex(busy)
+*.toc
+*.vrb
+*.xdv
+*.upa
+*.upb
+latexindent*.bak
+build/
+**/build/
+
+# --- Documentos compilados intermedios ---
+# Los PDF finales aprobados sí se versionan en 12_entregables/
+*.pdf.tmp
+
+# --- Ofimática y temporales ---
+~$*.docx
+~$*.xlsx
+~$*.pptx
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Editores ---
+.vscode/
+.idea/
+*.sublime-workspace
+
+# --- Credenciales y datos privados ---
+.env
+.env.*
+*.pem
+*.key
+token*.txt
+secrets/
+
+# --- Material con derechos de autor (no redistribuir) ---
+recursos-compartidos/libros/*.pdf
+recursos-compartidos/normas/*.pdf
+recursos-compartidos/normas/*.docx
+recursos-compartidos/tablas-termodinamicas/*.pdf
+
+# --- Entornos virtuales / dependencias locales ---
+.venv/
+venv/
+node_modules/
+__pycache__/
