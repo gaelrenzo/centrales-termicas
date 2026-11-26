@@ -31,10 +31,10 @@ reutilizar los recursos comunes del repositorio.
 | `03-trabajo-pendiente/` | Pendiente de definición | PENDIENTE |
 | `04-trabajo-pendiente/` | Pendiente de definición | PENDIENTE |
 | `05-trabajo-pendiente/` | Pendiente de definición | PENDIENTE |
-| `06-trabajo-pendiente/` | Pendiente de definición | PENDIENTE — carpeta vacía |
-| `07-trabajo-pendiente/` | Pendiente de definición | PENDIENTE — carpeta vacía |
+| `06-articulo-cientifico-dos-columnas/` | Artículo científico a dos columnas (trabajo grupal) | PENDIENTE — carpeta vacía |
+| `07-sustentacion-trabajo-grupal/` | Sustentación del trabajo grupal | PENDIENTE — carpeta vacía |
 
-Los títulos de los trabajos 02 a 07 no se inventan: sus carpetas quedan
+Los títulos de los trabajos 02 a 05 no se inventan: sus carpetas quedan
 preparadas y se renombrarán cuando el alcance académico sea definido y
 documentado en `PLAN_MAESTRO.md`.
 
@@ -53,8 +53,8 @@ centrales-termicas/
 ├── 03-trabajo-pendiente/
 ├── 04-trabajo-pendiente/
 ├── 05-trabajo-pendiente/
-├── 06-trabajo-pendiente/
-└── 07-trabajo-pendiente/
+├── 06-articulo-cientifico-dos-columnas/
+└── 07-sustentacion-trabajo-grupal/
 ```
 
 Cada carpeta del repositorio incluye un `README.md` con su propósito, su índice,

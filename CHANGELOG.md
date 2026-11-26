@@ -8,8 +8,9 @@ proyecto documental.
 
 ### Añadido
 
-- Carpetas vacías `06-trabajo-pendiente/` y `07-trabajo-pendiente/` reservadas
-  para dos trabajos nuevos aún sin definir.
+- Carpetas vacías `06-articulo-cientifico-dos-columnas/` y
+  `07-sustentacion-trabajo-grupal/` para los dos entregables del trabajo grupal
+  de equipamiento de central a vapor (artículo a dos columnas y sustentación).
 
 ### Cambiado
 

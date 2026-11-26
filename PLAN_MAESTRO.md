@@ -31,10 +31,10 @@ cálculos son académicos y así se declaran siempre.
 | 03 | `03-trabajo-pendiente/` | Por definir | Por definir | PENDIENTE |
 | 04 | `04-trabajo-pendiente/` | Por definir | Por definir | PENDIENTE |
 | 05 | `05-trabajo-pendiente/` | Por definir | Por definir | PENDIENTE |
-| 06 | `06-trabajo-pendiente/` | Por definir | Por definir | PENDIENTE |
-| 07 | `07-trabajo-pendiente/` | Por definir | Por definir | PENDIENTE |
+| 06 | `06-articulo-cientifico-dos-columnas/` | Artículo científico a dos columnas | Trabajo grupal de equipamiento de central a vapor (PDF) | PENDIENTE |
+| 07 | `07-sustentacion-trabajo-grupal/` | Sustentación del trabajo grupal | Defensa del artículo científico | PENDIENTE |
 
-**Regla:** los títulos, alcances y potencias de los trabajos 02 a 07 no se
+**Regla:** los títulos, alcances y potencias de los trabajos 02 a 05 no se
 inventan. Se incorporan solo cuando exista la consigna académica correspondiente
 y quede registrada en este plan mediante un commit `docs:`.
 
