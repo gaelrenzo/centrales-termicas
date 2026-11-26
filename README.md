@@ -48,6 +48,7 @@ centrales-termicas/
 ├── CONTROL_CALIDAD.md         Matriz de revisión técnica del proyecto
 ├── CHANGELOG.md               Historial de cambios relevantes
 ├── recursos-compartidos/      Normas, libros, tablas, plantillas, referencias
+├── material/                  Tesis y fuentes sobre centrales geotérmicas
 ├── 01-equipamiento-central-vapor/
 ├── 02-trabajo-pendiente/
 ├── 03-trabajo-pendiente/

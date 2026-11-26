@@ -8,6 +8,8 @@ proyecto documental.
 
 ### Añadido
 
+- `material/` con seis tesis y trabajos académicos sobre energía y centrales
+  geotérmicas, más su índice bibliográfico (`material/README.md`).
 - Carpetas vacías `06-articulo-cientifico-dos-columnas/` y
   `07-sustentacion-trabajo-grupal/` para los dos entregables del trabajo grupal
   de equipamiento de central a vapor (artículo a dos columnas y sustentación).
