@@ -1,0 +1,27 @@
+schema_version: 1
+id: linea-primaria-capachica-llachon
+proyecto: "Estudio preliminar de línea primaria Capachica–Llachón"
+ubicacion:
+  distrito: Capachica
+  provincia: Puno
+  departamento: Puno
+  datum_horizontal: WGS84
+  proyeccion: "UTM zona 19 Sur"
+  epsg: 32719
+estado: "Preliminar geoespacial; sin levantamiento ni punto eléctrico de conexión definido"
+traza_referencia:
+  origen_poblado_wgs84: [-69.830694, -15.642131]
+  destino_poblado_wgs84: [-69.783859, -15.722804]
+  longitud_osrm_m: 14177.3
+  longitud_geometria_m: 14201.31
+  base: "Ruta vial OSRM/OpenStreetMap; no es alineamiento eléctrico aprobado"
+red_existente:
+  fuente: "Informe Técnico Osinergmin 092-2024-GRT, figs. 8 y 9"
+  nota: "Reporta alimentador 5025/red MT hacia Capachica e incluye Llachón en la topología regional; empalme y estado local sin coordenada verificada"
+  implicancia: "Determinar necesidad como extensión, refuerzo o conexión antes de plantear una línea nueva"
+electrico:
+  tension_objetivo_kv: null
+  conductor: null
+  transformador: null
+  estructuras: null
+  nota: "No trasladar automáticamente parámetros del estudio Capachica–Chifrón"

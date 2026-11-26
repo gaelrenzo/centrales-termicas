@@ -1,0 +1,7 @@
+Entorno: /tmp/capachica-cad-venv (Python 3.14 Termux), ezdxf 0.17.2.
+Geodatos: 3 passed (pytest tests). Verifica control UTM WGS84/UTM19S, 144 estaciones/cotas DEM, DXF y paquete.
+DXF: LP-01 y PL-01 auditados sin errores; seis archivos DXF se leen, con layout A3_PRELIMINAR.
+PDF: seis láminas generadas con mutool; una página cada una.
+PNG: seis láminas a 180 dpi, inspeccionadas visualmente.
+AutoCAD: no probado.
+Estado: preliminar cartográfico/tipológico; no apto para construcción.

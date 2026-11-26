@@ -1,0 +1,8 @@
+Entorno: /tmp/capachica-cad-venv (Python 3.14 Termux)
+Generador: scripts/cad_mejorado.py
+Resultado: seis láminas DXF/PDF/PNG/SVG regeneradas correctamente.
+Pruebas nuevas CAD: 5 passed (pytest -q tests/test_cad_mejorado.py).
+Auditoría DXF: seis archivos leídos con ezdxf 0.17.2; cero errores reportados.
+Suite heredada completa: no colecciona; test_calculo_mecanico.py falla al importar numpy (ModuleNotFoundError). No se modificaron pruebas heredadas.
+Render: seis PDF de una página; seis PNG a 180 dpi. Página PDF A3 comprobada con mutool info.
+AutoCAD: no probado.

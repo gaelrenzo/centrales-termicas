@@ -6,6 +6,17 @@ proyecto documental.
 
 ## [Unreleased]
 
+### Añadido
+
+- Trabajo 06: `06-linea-primaria-capachica-chifron/` — expediente técnico de la
+  línea primaria 22.9 kV Capachica–Chifrón (MEC330, Instalaciones Eléctricas II).
+- Trabajo 07: `07-linea-primaria-capachica-llachon/` — base geoespacial de la
+  línea primaria Capachica–Llachón (MEC330, Instalaciones Eléctricas II).
+
+### Cambiado
+
+- El repositorio pasó de **privado** a **público** en GitHub.
+
 ## [0.3.1] — 2026-11-24
 
 ### Añadido

@@ -1,0 +1,110 @@
+{
+  "fecha_consulta": "2026-10-13",
+  "fuente": "Osinergmin GISEM ArcGIS REST; capas 22 Tramo Media Tensión, 23 Estructuras MT, 25 SED",
+  "crs": "WGS 84 / UTM 19S (EPSG:32719)",
+  "origen_capachica_localizador": {
+    "lon": -69.830694,
+    "lat": -15.642131,
+    "este": 410963.59117405576,
+    "norte": 8270475.40635756
+  },
+  "destino_llachon_localizador": {
+    "lon": -69.783859,
+    "lat": -15.722804,
+    "este": 416016.7955917232,
+    "norte": 8261570.424673973
+  },
+  "activos_cercanos": {
+    "tramo_mt_capachica": {
+      "referencia": "Más cercano al localizador Capachica",
+      "codigo": "TMT000011089",
+      "etiqueta": "",
+      "empresa": "ELPU",
+      "fecha": "16/11/2024",
+      "este_utm19s_m": 410864.63001954986,
+      "norte_utm19s_m": 8270474.290036463,
+      "distancia_al_localizador_m": 98.9674505781209,
+      "sistema": "",
+      "codigo_tramo": "TMT000011089",
+      "tipo_red": "A",
+      "propiedad": "D",
+      "longitud_atributo_m": "162.81",
+      "punto_mas_cercano_este_m": 410864.63001954986,
+      "punto_mas_cercano_norte_m": 8270474.290036463,
+      "criterio": "tramo con longitud atribuida >= 20 m; se excluye stub cartográfico de 0.99 m"
+    },
+    "sed_capachica": {
+      "referencia": "SED más cercana a Capachica",
+      "codigo": "SED000004036",
+      "etiqueta": "SE07234",
+      "empresa": "ELPU",
+      "fecha": "21/07/2010",
+      "este_utm19s_m": 410865.3199522547,
+      "norte_utm19s_m": 8270473.620041254,
+      "distancia_al_localizador_m": 98.28745576226251,
+      "sistema": "Juliaca Rural",
+      "codigo_tramo": ""
+    },
+    "tramo_mt_llachon": {
+      "referencia": "Más cercano al localizador Llachón",
+      "codigo": "TMT000009481",
+      "etiqueta": "",
+      "empresa": "ELPU",
+      "fecha": "04/12/2024",
+      "este_utm19s_m": 415951.7780909127,
+      "norte_utm19s_m": 8261580.624512328,
+      "distancia_al_localizador_m": 65.8127048077741,
+      "sistema": "",
+      "codigo_tramo": "TMT000009481",
+      "tipo_red": "A",
+      "propiedad": "D",
+      "longitud_atributo_m": "238.71",
+      "punto_mas_cercano_este_m": 415951.7780909127,
+      "punto_mas_cercano_norte_m": 8261580.624512328
+    },
+    "sed_llachon": {
+      "referencia": "SED más cercana a Llachón",
+      "codigo": "SED000004066",
+      "etiqueta": "SE07262",
+      "empresa": "ELPU",
+      "fecha": "10/06/1985",
+      "este_utm19s_m": 415964.57000567217,
+      "norte_utm19s_m": 8261647.650027036,
+      "distancia_al_localizador_m": 93.22696495161112,
+      "sistema": "Juliaca Rural",
+      "codigo_tramo": ""
+    },
+    "estructura_mt_capachica": {
+      "referencia": "Estructura MT más cercana",
+      "codigo": "NMT000367724",
+      "etiqueta": " ",
+      "empresa": "ELPU",
+      "fecha": "",
+      "este_utm19s_m": 411066.3600376955,
+      "norte_utm19s_m": 8270407.219981735,
+      "distancia_al_localizador_m": 123.33215793961291,
+      "sistema": "",
+      "codigo_tramo": ""
+    },
+    "stub_mas_cercano_capachica": {
+      "referencia": "Stub MT cartográfico más cercano",
+      "codigo": "TMT001868169",
+      "etiqueta": "",
+      "empresa": "ELPU",
+      "fecha": "16/11/2024",
+      "este_utm19s_m": 410865.3199522547,
+      "norte_utm19s_m": 8270473.620041254,
+      "distancia_al_localizador_m": 98.28745576226251,
+      "sistema": "",
+      "codigo_tramo": "TMT001868169",
+      "longitud_atributo_m": "0.99",
+      "nota": "geometría de 0.99 m coincidente con la SED; no usar como tramo de empalme sin aclaración de la concesionaria"
+    }
+  },
+  "conteos_consulta": {
+    "tramos_mt": 171,
+    "estructuras_mt": 362,
+    "sed": 49
+  },
+  "estado": "CRIBADO DE PROXIMIDAD; no es factibilidad ni diseño de conexión"
+}

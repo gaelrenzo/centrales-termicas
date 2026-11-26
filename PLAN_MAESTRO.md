@@ -22,7 +22,7 @@ entregables.
 El proyecto no persigue aparentar resultados de una central existente: los
 cálculos son académicos y así se declaran siempre.
 
-## 2. Alcance de los cinco trabajos
+## 2. Alcance de los trabajos
 
 | N.º | Carpeta | Título | Alcance | Estado |
 |---|---|---|---|---|
@@ -31,6 +31,12 @@ cálculos son académicos y así se declaran siempre.
 | 03 | `03-trabajo-pendiente/` | Por definir | Por definir | PENDIENTE |
 | 04 | `04-trabajo-pendiente/` | Por definir | Por definir | PENDIENTE |
 | 05 | `05-trabajo-pendiente/` | Por definir | Por definir | PENDIENTE |
+| 06 | `06-linea-primaria-capachica-chifron/` | Línea primaria 22.9 kV Capachica–Chifrón | Expediente técnico de línea primaria y subestación (MEC330) | AGREGADO |
+| 07 | `07-linea-primaria-capachica-llachon/` | Línea primaria Capachica–Llachón | Base geoespacial y planos de referencia (MEC330) | AGREGADO |
+
+**Nota:** los trabajos 06 y 07 provienen del curso MEC330 — Instalaciones
+Eléctricas II y se incorporaron al repositorio por pedido del estudiante; no
+forman parte del expediente de centrales térmicas.
 
 **Regla:** los títulos, alcances y potencias de los trabajos 02 a 05 no se
 inventan. Se incorporan solo cuando exista la consigna académica correspondiente

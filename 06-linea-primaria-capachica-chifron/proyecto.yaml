@@ -1,0 +1,115 @@
+schema_version: 1
+id: renzo-linea-primaria-capachica
+proyecto: "Diseño de Línea Primaria 22.9 kV y Subestación de Distribución Biposte 100 kVA para el Sector Chifrón (Capachica)"
+curso: "Instalaciones Eléctricas II (MEC330)"
+docentes:
+  - "Ing. Leonidas Vilca Callata"
+  - "Ing. Marcos José Villanueva Cornejo"
+autor_estudiante: "Renzo Gabriel Mamani Galindo"
+codigo_estudiante: "228447"
+semestre_academico: "2026-II"
+ciclo: "IX"
+fecha_inicio: "2026-10-10"
+estado: "Preliminar académico — pendiente de validar topografía, topología y cálculos"
+
+naturaleza_proyecto:
+  tipo: ingenieria_detalle_linea_primaria_rural
+  descripcion: "Diseño académico preliminar de línea primaria en media tensión 22.9 kV (longitud declarada 0.817 km, AAAC 35 mm2) y subestación aérea biposte SAB-1 (100 kVA) para Chifrón, Capachica, Puno. Redes secundarias, acometidas y alumbrado público están fuera del alcance de esta entrega."
+  flujo_digital:
+    - "Google Earth Pro (traza de ruta y coordenadas georreferenciadas KML)"
+    - "Levantamiento topográfico DEM / SRTM (perfil longitudinal y cotas)"
+    - "Cálculo analítico Truxa y caída de tensión (Python / numpy)"
+    - "AutoCAD / ezdxf / Matplotlib (planos ejecutivos P-01, U-01, PL-01 en formato A3)"
+
+ubicacion:
+  departamento: "Puno"
+  provincia: "Puno"
+  distrito: "Capachica"
+  sector_origen: "Chifrón (Vértice Derivación E-01)"
+  localidad_destino: "Sector Chifrón (Subestación SED E-04 y caserío)"
+  altitud_rango_msnm: "3,817.04 - 3,924.17"
+  altitud_promedio_msnm: 3850
+  zona_utm: "19 Sur"
+  datum: "WGS84"
+
+punto_diseno:
+  concesionaria: "Electro Puno S.A.A."
+  fuente_informacion: "Geovisor GISEM OSINERGMIN"
+  tramo_existente_mt: "TMT000012389 / TMT001847370"
+  tipo_centro: "CT (Centro de Transformación / Derivación MT existente)"
+  coordenadas_derivacion_e01:
+    este_m: 412606.01
+    norte_m: 8270712.24
+    cota_msnm: 3924.17
+    estructura: "E-01 (Poste CAC 12/400 con armado PR-1, Cut-Out 27 kV 100A y Pararrayos ZnO 21 kV)"
+  coordenadas_sed_proyectada_e04:
+    este_m: 412759.20
+    norte_m: 8270976.22
+    cota_msnm: 3839.56
+    estructura: "E-04 (Biposte CAC 13/400 x2 con armado SAB-1, Trafo 100 kVA y Tablero BT IP65)"
+  coordenadas_terminal_e09:
+    este_m: 412659.90
+    norte_m: 8271446.51
+    cota_msnm: 3824.61
+    estructura: "E-09 (Poste CAC 12/400 terminal con armado PR-1 y retenida simple)"
+
+suministro_y_sistema:
+  nivel_tension_mt_kv: 22.9
+  sistema_mt: "Trifásico 3 hilos (3Ø)"
+  nivel_tension_bt_v: "380 / 220"
+  sistema_bt: "Trifásico 4 hilos con neutro corrido aterrado (3Ø + N)"
+  frecuencia_hz: 60
+  conductor_mt: "AAAC 35 mm² (sección real 34.36 mm², 7 hilos)"
+  conductor_bt: "Autoportante de aluminio CAAI 3x35+25+16 mm² (C-1) y 3x25+25+16 mm² (C-2)"
+  transformador_sed: "100 kVA, 22.9 / 0.38 - 0.22 kV, Dyn5, ONAN, 60 Hz"
+  aisladores_mt: "Poliméricos tipo suspensión 25 kV y tipo pin ANSI 56-3"
+  estructuras_soporte: "Postes C.A.C. 12m/300 daN, 12m/400 daN y 13m/400 daN (biposte)"
+
+hipotesis_climaticas_puno:
+  zona_cne: "Zona 2/3 (Altiplano > 3000 msnm, CNE Suministro 2011 Tabla 250-1)"
+  hipotesis_1_viento_maximo:
+    temperatura_c: 10.0
+    viento_km_h: 75.0
+    hielo_mm: 0.0
+    limite_tiro_pct: 40.0
+  hipotesis_2_hielo_maximo:
+    temperatura_c: -5.0
+    viento_km_h: 37.5
+    hielo_mm: 6.0
+    limite_tiro_pct: 40.0
+  hipotesis_3_temperatura_minima:
+    temperatura_c: -15.0
+    viento_km_h: 0.0
+    hielo_mm: 0.0
+    limite_tiro_pct: 40.0
+  hipotesis_4_temperatura_maxima:
+    temperatura_c: 35.0
+    viento_km_h: 0.0
+    hielo_mm: 0.0
+    limite_tiro_pct: 40.0
+  hipotesis_5_eds_templado:
+    temperatura_c: 15.0
+    viento_km_h: 0.0
+    hielo_mm: 0.0
+    limite_tiro_pct: 18.0
+    tiro_rotura_porcentaje: 18.0
+    tiro_eds_kgf: 187.20
+
+entregables:
+  memoria_descriptiva: "expediente/01_memoria_descriptiva.md"
+  calculos_electricos: "diseno-electrico/memoria_calculo_electrico.md"
+  calculos_mecanicos: "calculo-mecanico/memoria_calculo_mecanico.md"
+  especificaciones_tecnicas_seace: "expediente/02_tdr_especificaciones_tecnicas_linea_primaria_seace.md"
+  analisis_precios_unitarios: "expediente/03_analisis_precios_unitarios_linea_primaria_seace.md"
+  metrados_y_presupuesto: "expediente/03_metrados_y_presupuesto.md"
+  cronograma: "expediente/04_cronograma_obra.md"
+  planos_ejecutivos_a3:
+    lp01_planta_servidumbre: "entregables/planos/plano_LP01_planta_linea_primaria.pdf"
+    pl01_perfil_longitudinal: "entregables/planos/plano_PL01_perfil_longitudinal.pdf"
+    u01_diagrama_unifilar: "entregables/planos/plano_U01_diagrama_unifilar_detalles.pdf"
+    d01_armados_ps1_pa1: "entregables/planos/plano_D01_armados_dge_ps1_pa1.pdf"
+    d02_armado_pr1_sab1: "entregables/planos/plano_D02_armados_dge_pr1_sab1.pdf"
+    d03_cimentacion_retenidas_pat: "entregables/planos/plano_D03_detalles_cimentacion_retenida_pat.pdf"
+  planos_cad_dxf: "entregables/planos/"
+  modelos_cadquery_3d: "entregables/planos/cad_linea_primaria/scripts_cadquery_3d/"
+  expediente_final_pdf: "expediente/expediente_tecnico_completo.pdf"
