@@ -1,5 +1,0 @@
-Fecha: 2026-10-13
-Comando: /tmp/capachica-cad-venv/bin/python -m pytest -q
-Resultado real: 3 passed, 85 warnings in 1.09 s.
-Los avisos son deprecaciones de PyParsing activadas por ezdxf 0.17.2; no hubo fallos.
-El generador GISEM produjo DXF/PDF/PNG/SVG; PDF/PNG fueron exportados mediante MuPDF (mutool).

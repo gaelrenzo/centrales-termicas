@@ -1,7 +1,0 @@
-# Runtime CAD used in the Android/Termux environment
-# ezdxf 1.x pulled NumPy, which has no compatible wheel in this environment.
-ezdxf==0.17.2
-pytest==9.1.1
-
-# External executable required for deterministic SVG -> PDF -> PNG export:
-# MuPDF mutool (install from the platform package manager, e.g. pkg install mupdf-tools)

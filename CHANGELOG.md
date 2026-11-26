@@ -8,10 +8,8 @@ proyecto documental.
 
 ### Añadido
 
-- Trabajo 06: `06-linea-primaria-capachica-chifron/` — expediente técnico de la
-  línea primaria 22.9 kV Capachica–Chifrón (MEC330, Instalaciones Eléctricas II).
-- Trabajo 07: `07-linea-primaria-capachica-llachon/` — base geoespacial de la
-  línea primaria Capachica–Llachón (MEC330, Instalaciones Eléctricas II).
+- Carpetas vacías `06-trabajo-pendiente/` y `07-trabajo-pendiente/` reservadas
+  para dos trabajos nuevos aún sin definir.
 
 ### Cambiado
 

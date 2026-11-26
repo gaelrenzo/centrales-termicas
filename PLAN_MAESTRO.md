@@ -31,14 +31,10 @@ cálculos son académicos y así se declaran siempre.
 | 03 | `03-trabajo-pendiente/` | Por definir | Por definir | PENDIENTE |
 | 04 | `04-trabajo-pendiente/` | Por definir | Por definir | PENDIENTE |
 | 05 | `05-trabajo-pendiente/` | Por definir | Por definir | PENDIENTE |
-| 06 | `06-linea-primaria-capachica-chifron/` | Línea primaria 22.9 kV Capachica–Chifrón | Expediente técnico de línea primaria y subestación (MEC330) | AGREGADO |
-| 07 | `07-linea-primaria-capachica-llachon/` | Línea primaria Capachica–Llachón | Base geoespacial y planos de referencia (MEC330) | AGREGADO |
+| 06 | `06-trabajo-pendiente/` | Por definir | Por definir | PENDIENTE |
+| 07 | `07-trabajo-pendiente/` | Por definir | Por definir | PENDIENTE |
 
-**Nota:** los trabajos 06 y 07 provienen del curso MEC330 — Instalaciones
-Eléctricas II y se incorporaron al repositorio por pedido del estudiante; no
-forman parte del expediente de centrales térmicas.
-
-**Regla:** los títulos, alcances y potencias de los trabajos 02 a 05 no se
+**Regla:** los títulos, alcances y potencias de los trabajos 02 a 07 no se
 inventan. Se incorporan solo cuando exista la consigna académica correspondiente
 y quede registrada en este plan mediante un commit `docs:`.
 

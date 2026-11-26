@@ -1,3 +1,0 @@
-ezdxf==0.17.2
-pytest==9.1.1
-# Requiere además mutool (MuPDF) en PATH para exportar PDF y PNG.
